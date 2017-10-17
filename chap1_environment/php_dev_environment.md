@@ -168,7 +168,7 @@ $ sudo /etc/init.d/php7.0-fpm restart
 ## 4 测试
 在 nginx 设置的 root 目录下新建 `t.php` 文件。
 里面写
-```
+```php
 <?php
 echo 'hello world'
 ?>
@@ -183,7 +183,7 @@ hello world
 ```
 
 或者写
-```
+```php
 <?php
 echo phpinfo();
 ?>
